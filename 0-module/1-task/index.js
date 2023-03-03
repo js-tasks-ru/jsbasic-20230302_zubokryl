@@ -1,7 +1,6 @@
-function firstSum(a, b) {
-  let c = a + b;
-  return c;
+function sum(a, b) {
+  return a + b;
 }
-console.log(firstSum(1, 1));
-console.log(firstSum(2, 5));
+console.log(sum(1, 1));
+console.log(sum(2, 5));
 
