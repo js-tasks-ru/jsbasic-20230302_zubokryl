@@ -1,9 +1,9 @@
 function isEmpty(obj) {
-   for (const prop in obj) {
-     if (Object.prototype.hasOwnProperty.call(obj, prop)) {
-       return false;
-     }
-   }
-   return true;
- }
+  for (const prop in obj) {
+    if (obj.hasOwnProperty(prop)) {
+      return false;
+    }
+  }
+  return true;
+}
  
